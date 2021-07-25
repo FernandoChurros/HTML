@@ -216,4 +216,34 @@
  ### Atributos únicos 
   - multiple | *Habilita múltiplas opções*
   - size | *Quantas opções visíveis?*
-  
+
+ ## `<input type="optgroup">`
+  - Aplicado com o `<input type="select>`
+  - Aplicado dentro de um `type="select"` para agrupar as `<option>`
+
+ ### Atributos
+  - label | *Usado para definir o título do agrupamento*
+
+ ## `<input type="search">`
+  - Para campos de buscas
+  - É igual ao `type="text"`, mas poderá ser um pouco diferente dependendo do user agent
+
+ ### Atributos
+  - list
+  - pattern
+  - aria-label | *Empregado quando não se tem uma tag label para especificar o campo*
+
+ ## `<input type="number">`
+  - Entrada de número
+
+ ### Atributos
+  - min/max
+  - step
+
+ ## `<input type="range">`
+  - Controle para selecionar um valor numérico
+  - Slider ou dial control
+
+ ### Atributos 
+  - min/max
+  - step
