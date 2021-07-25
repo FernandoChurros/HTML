@@ -91,3 +91,31 @@
 
  ## Tipos de inputs suportados
   - text, search, url, tel, email, date, month, week, time, datetime-local, number, range e color
+---
+
+ # Tags de entrada de dados
+ 
+ ## `<input>`
+  - Um dos mais usados um formulários
+  - Aceita os mais diversos tipos de dados
+  - Elevado números de combinações
+
+ ### Atributos
+  - type
+  - name
+  - autocomplete
+  - autofocus | bolean, Um por página
+  - disabled | bolean
+  - readonly | bolean
+  - value
+  - form | linkar um input com um formulário
+  - name
+  - required | bolean
+  - placeholder
+ 
+ ## `<input type="password">`
+ 
+ ### Atributos
+  - minlength/maxlength | * Número mínimo e/ou máximo de caracteres para este campo *
+  - size | * O númeor aceitáivel que este campo deverá conter *
+  - pattern | * Expressão regular, para verificar o que está sendo digitado no campo *, * Altamente recomendando o uso de um padrão de segurança alta de senhas *,  _* exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e o máximo 8 caracteres `patern="[0-9a-fA-F]{4-8}"` *_
