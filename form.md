@@ -116,6 +116,7 @@
  ## `<input type="password">`
  
  ### Atributos
-  - minlength/maxlength | * Número mínimo e/ou máximo de caracteres para este campo *
-  - size | * O númeor aceitáivel que este campo deverá conter *
-  - pattern | * Expressão regular, para verificar o que está sendo digitado no campo *, * Altamente recomendando o uso de um padrão de segurança alta de senhas *,  _* exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e o máximo 8 caracteres `patern="[0-9a-fA-F]{4-8}"` *_
+  - minlength/maxlength | *Número mínimo e/ou máximo de caracteres para este campo*
+  - size | *O númeor aceitáivel que este campo deverá conter*
+  - pattern | *Expressão regular, para verificar o que está sendo digitado no campo*, *Altamente recomendando o uso de um padrão de segurança alta de senhas*,  __*exemplo: queremos que a senha contenha caracteres hexadecimais com o limite de no mínimo 4 e o máximo 8 caracteres `patern="[0-9a-fA-F]{4-8}"`*__
+  - inputmode | *poderá alterar o uso do teclado em smartphones*, __*exemplo: queremos que o usuário só coloque números `inputmode="numeric"`*__
